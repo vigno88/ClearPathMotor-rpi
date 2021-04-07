@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibXML.a  CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o
+/usr/bin/ranlib libLibXML.a

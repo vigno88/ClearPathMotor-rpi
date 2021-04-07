@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Example-SingleThreaded.dir/src/SDK_Examples/Example-SingleThreaded/Example-SingleThreaded.cpp.o CMakeFiles/Example-SingleThreaded.dir/src/SDK_Examples/Example-SingleThreaded/Axis.cpp.o  -o Example-SingleThreaded libsFoundation.a libLibINI.a libLibLinuxOS.a libLibXML.a -ldl -pthread 

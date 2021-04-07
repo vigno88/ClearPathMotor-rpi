@@ -1,0 +1,9 @@
+/home/pi/teknic_motor_controller/CMakeFiles/rebuild_cache.dir
+/home/pi/teknic_motor_controller/CMakeFiles/LibMotors.dir
+/home/pi/teknic_motor_controller/CMakeFiles/Homing_Test.dir
+/home/pi/teknic_motor_controller/CMakeFiles/edit_cache.dir
+/home/pi/teknic_motor_controller/CMakeFiles/Motor_Test.dir
+/home/pi/teknic_motor_controller/CMakeFiles/LibINI.dir
+/home/pi/teknic_motor_controller/CMakeFiles/LibLinuxOS.dir
+/home/pi/teknic_motor_controller/CMakeFiles/LibXML.dir
+/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir

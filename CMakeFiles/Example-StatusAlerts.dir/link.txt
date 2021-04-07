@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Example-StatusAlerts.dir/src/SDK_Examples/Example-StatusAlerts/Example-StatusAlerts.cpp.o  -o Example-StatusAlerts libsFoundation.a libLibINI.a libLibLinuxOS.a libLibXML.a -ldl -pthread 

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibINI.a  CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o
+/usr/bin/ranlib libLibINI.a

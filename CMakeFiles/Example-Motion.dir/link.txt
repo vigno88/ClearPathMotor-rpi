@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Example-Motion.dir/src/SDK_Examples/Example-Motion/Example-Motion.cpp.o  -o Example-Motion libsFoundation.a libLibINI.a libLibLinuxOS.a libLibXML.a -ldl -pthread 

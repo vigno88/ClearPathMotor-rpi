@@ -1,0 +1,79 @@
+//Required include files
+#include "clearPathMotors.h"	
+#include "motors.h"
+
+extern "C" {
+	CMotors* CreateMotors() {
+		return (CMotors*) new CP_Motors();
+	}	
+
+	void Initialize(CMotors* motors) {
+		((CP_Motors*)motors)->initialize();
+	}
+
+	void NodeCount(CMotors* motors) {
+		((CP_Motors*)motors)->nodeCount();
+	}
+
+	void StartMoveNode(CMotors* motors, int indexNode, int numSteps) {
+		((CP_Motors*)motors)->startMoveNode(indexNode, numSteps);
+	}
+
+	bool IsMoveDoneNode(CMotors* motors, int indexNode) {
+		((CP_Motors*)motors)->isMoveDoneNode(indexNode);
+	}
+
+	int ReadPosNode(CMotors* motors, int indexNode) {
+		return ((CP_Motors*)motors)->readPosNode(indexNode);
+	}
+
+
+	void SetAccelNode(CMotors* motors, int indexNode, int accel) {
+		((CP_Motors*)motors)->setAccelNode(indexNode, accel);
+	}
+
+	void SetVelNode(CMotors* motors, int indexNode, int vel) {
+		((CP_Motors*)motors)->setVelNode(indexNode, vel);
+	}
+
+
+	void BackAndForthSequence(CMotors* motors,int indexNode,int travelLength){
+		((CP_Motors*)motors)->initialize();
+	}
+	void StopNodeHard(CMotors* motors, int indexNode) {
+		((CP_Motors*)motors)->initialize();
+	}
+	void StopNodeDecel(CMotors* motors, int indexNode) {
+		((CP_Motors*)motors)->initialize();
+	}
+}
+
+class CP_Motors {
+	public:
+		void initialize();
+		int nodeCount();
+
+		void startMoveNode(int indexNode, int numSteps);
+		bool isMoveDoneNode(int indexNode);
+		int readPosNode(int indexNode); 
+
+		void setAccelNode(int indexNode, int accel);
+		void setVelNode(int indexNode, int vel);
+
+		void backAndForthSequence(int indexNode, int travelLength);
+		void stopNodeHard(int indexNode);
+		void stopNodeDecel(int indexNode);
+
+		~CP_Motors();
+	private:
+		SysManager _manager;
+		IPort* _port;
+		INode** _nodes;
+		int _nodeCount = 0;
+
+		void openPort();
+		void getNodes();
+		void configNodes();
+		void homeNodes();
+
+};

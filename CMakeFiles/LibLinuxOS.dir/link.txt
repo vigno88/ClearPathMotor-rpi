@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLibLinuxOS.a  CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o
+/usr/bin/ranlib libLibLinuxOS.a

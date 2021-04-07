@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/Motor_Test.dir/src/motor_control/motor_test.cpp.o  -o Motor_Test  libsFoundation.a libLibINI.a libLibLinuxOS.a libLibXML.a -ldl -pthread 
