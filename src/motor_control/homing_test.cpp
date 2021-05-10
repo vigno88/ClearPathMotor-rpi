@@ -19,7 +19,8 @@ class CP_Motors {
 		void initialize();
 		int nodeCount();
 
-		void startMoveNode(int indexNode, int numSteps);
+		void startMovePosNode(int indexNode, int numSteps);
+		void startMoveVelNode(int indexNode, int velocity);
 	       	bool isMoveDoneNode(int indexNode);
 		int readPosNode(int indexNode); 
 		
@@ -78,9 +79,19 @@ int main(int argc, char* argv[]) {
 		//At this point we will execute 10 rev moves sequentially on each axis
 		///////////////////////////////////////////////////////////////////////
 		INode &Node1 = *motors._nodes[0];
-		motors.setVelNode(0, 4000);
+		motors.setVelNode(0, 4100);
 		motors.setAccelNode(0, 12000);
-		motors.backAndForthSequence(0, 3000);
+		motors.setVelNode(2, 4100);
+		motors.setAccelNode(2, 12000);
+		motors.setVelNode(4, 4100);
+		motors.setAccelNode(4, 12000);
+		motors.setVelNode(1, 400);
+		motors.setAccelNode(1, 1000);
+		motors.setVelNode(3, 400);
+		motors.setAccelNode(3, 1000);
+		motors.setVelNode(5, 400);
+		motors.setAccelNode(5, 1000);
+		motors.backAndForthSequence(0, 500);
 //		for(size_t j=0; j < 10;j++) {
 //			for (size_t i = 0; i < NUM_MOVES; i++) {
 /*				printf("Moving Nodes...Current Positions: \n");
@@ -139,7 +150,6 @@ int main(int argc, char* argv[]) {
 			motors._port->Nodes(iNode).EnableReq(false);
 		}
 	} catch (mnErr& theErr) {
-		printf("Failed to disable Nodes n\n");
 		// This statement will print the address of the error, the error code
 		// (defined by the mnErr class),as well as the corresponding error message.
 		printf("Caught error: addr=%d, err=0x%08x\nmsg=%s\n",
@@ -234,6 +244,7 @@ void CP_Motors::getNodes() {
 }
 
 void CP_Motors::configNodes() {
+	printf("node count: %d", _nodeCount);
 	for (size_t iNode = 0; iNode < _nodeCount; iNode++) {
 		//Set the units for Acceleration to RPM/SEC
 		_nodes[iNode]->AccUnit(INode::RPM_PER_SEC);		
@@ -244,13 +255,12 @@ void CP_Motors::configNodes() {
 		_nodes[iNode]->Motion.AccLimit = ACC_LIM_NODE_1;
 		//Set Velocity Limit (RPM)
 		_nodes[iNode]->Motion.VelLimit = VEL_SHORT_NODE_1;	
-		_nodes[iNode]->Motion.Adv.DecelLimit = 5000;
 	}
 }
 
 void CP_Motors::homeNodes() {
 	for (size_t iNode = 0; iNode < _nodeCount; iNode++) {
-	    INode &theNode = *_nodes[0];
+	    INode &theNode = *_nodes[iNode];
             if (theNode.Motion.Homing.HomingValid()) {
                 if (theNode.Motion.Homing.WasHomed()) {
                     printf("Node %d has already been homed,"
@@ -264,22 +274,12 @@ void CP_Motors::homeNodes() {
                 }
                 //Now we will home the Node
                 theNode.Motion.Homing.Initiate();
-                //define a timeout in case the node is unable to enable
-                double timeout = _manager.TimeStampMsec() + TIME_TILL_TIMEOUT;
-                // Basic mode - Poll until disabled
-                while (!theNode.Motion.Homing.WasHomed()) {
-                    if (_manager.TimeStampMsec() > timeout) {
-                        printf("Node did not complete homing:  \n\t"
-                            "-Ensure Homing settings have been defined through"
-                            " ClearView. \n\t -Check for alerts/Shutdowns \n\t"
-                            " -Ensure timeout is longer than the longest" 
-                            "possible homing move.\n");
-                        msgUser("Press any key to continue."); 
-                        exit(-2);
-                    }
-                }
-                printf("Node completed homing\n");
             } 
+	}
+	for (size_t iNode = 0; iNode < _nodeCount; iNode++) {
+	    INode &theNode = *_nodes[iNode];
+            while(theNode.Motion.Homing.IsHoming()) {}
+	    printf("Homing done");
 	}
 }
 
@@ -288,9 +288,12 @@ CP_Motors::~CP_Motors() {
 }
 
 
-void CP_Motors::startMoveNode(int indexNode, int numSteps) {
-	printf("Send movement of %d steps to node %d\n", numSteps, indexNode);
+void CP_Motors::startMovePosNode(int indexNode, int numSteps) {
 	_nodes[indexNode]->Motion.MovePosnStart(numSteps, true);			 
+}
+
+void CP_Motors::startMoveVelNode(int indexNode, int velocity) {
+	_nodes[indexNode]->Motion.MoveVelStart(velocity);			 
 }
 
 bool CP_Motors::isMoveDoneNode(int indexNode) {
@@ -323,10 +326,21 @@ void CP_Motors::stopNodeDecel(int indexNode) {
 }
 	
 void CP_Motors::backAndForthSequence(int indexNode, int travelLength) {
+	_nodes[1]->Motion.MoveVelStart(-400);			 
+	_nodes[3]->Motion.MoveVelStart(-400);			 
+	_nodes[5]->Motion.MoveVelStart(-400);			 
+		int travel = travelLength;
+			startMovePosNode(0, travel);
+			startMovePosNode(2, -travel);
+			startMovePosNode(4, travel);
 	while(true) {
-		startMoveNode(indexNode, travelLength);
-		while(!isMoveDoneNode(indexNode)){}
-		startMoveNode(indexNode, -travelLength);
-		while(!isMoveDoneNode(indexNode)){}
+		if(isMoveDoneNode(0)) {
+			travel = -travel;
+			startMovePosNode(0, travel);
+			startMovePosNode(2, -travel);
+			startMovePosNode(4, travel);
+
+		}
+		
+		}
 	}
-}

@@ -7,10 +7,6 @@
 
 #define TIMEOUT 10000
 
-#define ACC_NODE_1 1000
-#define VEL_NODE_1 1000
-
-
 using namespace sFnd;
 
 class CP_Motors {
@@ -18,8 +14,9 @@ class CP_Motors {
 		void initialize();
 		int nodeCount();
 		
-		void homeNode(int indexNode);
-		void startMoveNode(int indexNode, int numSteps);
+		void homeNodes();
+		void startMovePosNode(int indexNode, int numSteps, int targetIsAbsolute);
+		void startMoveVelNode(int indexNode, int vel);
 	       	bool isMoveDoneNode(int indexNode);
 		int readPosNode(int indexNode); 
 		int readPosCommandedNode(int indexNode);
@@ -28,7 +25,6 @@ class CP_Motors {
 		void setAccelNode(int indexNode, int accel);
 		void setVelNode(int indexNode, int vel);
 
-		void backAndForthSequence(int indexNode, int travelLength);
 		void stopNodeHard(int indexNode);
 		void stopNodeDecel(int indexNode);
 		void stopNodeClear(int indexNode);
@@ -41,5 +37,4 @@ class CP_Motors {
 		void openPort();
 		void getNodes();
 		void configNodes();
-		void homeNodes();
 };

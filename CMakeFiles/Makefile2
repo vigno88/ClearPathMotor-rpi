@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/teknic_motor_controller
+CMAKE_SOURCE_DIR = /home/pi/ClearPathMotor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/teknic_motor_controller
+CMAKE_BINARY_DIR = /home/pi/ClearPathMotor
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -83,20 +83,20 @@ clean: CMakeFiles/sFoundation.dir/clean
 # Target rules for target CMakeFiles/LibMotors.dir
 
 # All Build rule for target.
-CMakeFiles/LibMotors.dir/all: CMakeFiles/LibINI.dir/all
-CMakeFiles/LibMotors.dir/all: CMakeFiles/LibLinuxOS.dir/all
 CMakeFiles/LibMotors.dir/all: CMakeFiles/LibXML.dir/all
 CMakeFiles/LibMotors.dir/all: CMakeFiles/sFoundation.dir/all
+CMakeFiles/LibMotors.dir/all: CMakeFiles/LibLinuxOS.dir/all
+CMakeFiles/LibMotors.dir/all: CMakeFiles/LibINI.dir/all
 	$(MAKE) -f CMakeFiles/LibMotors.dir/build.make CMakeFiles/LibMotors.dir/depend
 	$(MAKE) -f CMakeFiles/LibMotors.dir/build.make CMakeFiles/LibMotors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target LibMotors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target LibMotors"
 .PHONY : CMakeFiles/LibMotors.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LibMotors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 45
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LibMotors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 0
 .PHONY : CMakeFiles/LibMotors.dir/rule
 
 # Convenience name for target.
@@ -113,20 +113,20 @@ CMakeFiles/LibMotors.dir/clean:
 # Target rules for target CMakeFiles/Homing_Test.dir
 
 # All Build rule for target.
-CMakeFiles/Homing_Test.dir/all: CMakeFiles/LibINI.dir/all
-CMakeFiles/Homing_Test.dir/all: CMakeFiles/LibLinuxOS.dir/all
 CMakeFiles/Homing_Test.dir/all: CMakeFiles/LibXML.dir/all
 CMakeFiles/Homing_Test.dir/all: CMakeFiles/sFoundation.dir/all
+CMakeFiles/Homing_Test.dir/all: CMakeFiles/LibLinuxOS.dir/all
+CMakeFiles/Homing_Test.dir/all: CMakeFiles/LibINI.dir/all
 	$(MAKE) -f CMakeFiles/Homing_Test.dir/build.make CMakeFiles/Homing_Test.dir/depend
 	$(MAKE) -f CMakeFiles/Homing_Test.dir/build.make CMakeFiles/Homing_Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=1,2 "Built target Homing_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=1,2 "Built target Homing_Test"
 .PHONY : CMakeFiles/Homing_Test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Homing_Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Homing_Test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 0
 .PHONY : CMakeFiles/Homing_Test.dir/rule
 
 # Convenience name for target.
@@ -143,20 +143,20 @@ CMakeFiles/Homing_Test.dir/clean:
 # Target rules for target CMakeFiles/Motor_Test.dir
 
 # All Build rule for target.
-CMakeFiles/Motor_Test.dir/all: CMakeFiles/LibINI.dir/all
-CMakeFiles/Motor_Test.dir/all: CMakeFiles/LibLinuxOS.dir/all
 CMakeFiles/Motor_Test.dir/all: CMakeFiles/LibXML.dir/all
 CMakeFiles/Motor_Test.dir/all: CMakeFiles/sFoundation.dir/all
+CMakeFiles/Motor_Test.dir/all: CMakeFiles/LibLinuxOS.dir/all
+CMakeFiles/Motor_Test.dir/all: CMakeFiles/LibINI.dir/all
 	$(MAKE) -f CMakeFiles/Motor_Test.dir/build.make CMakeFiles/Motor_Test.dir/depend
 	$(MAKE) -f CMakeFiles/Motor_Test.dir/build.make CMakeFiles/Motor_Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=35,36 "Built target Motor_Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=35,36 "Built target Motor_Test"
 .PHONY : CMakeFiles/Motor_Test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Motor_Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Motor_Test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 0
 .PHONY : CMakeFiles/Motor_Test.dir/rule
 
 # Convenience name for target.
@@ -176,14 +176,14 @@ CMakeFiles/Motor_Test.dir/clean:
 CMakeFiles/LibINI.dir/all:
 	$(MAKE) -f CMakeFiles/LibINI.dir/build.make CMakeFiles/LibINI.dir/depend
 	$(MAKE) -f CMakeFiles/LibINI.dir/build.make CMakeFiles/LibINI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=3,4,5 "Built target LibINI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=3,4,5 "Built target LibINI"
 .PHONY : CMakeFiles/LibINI.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LibINI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LibINI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 0
 .PHONY : CMakeFiles/LibINI.dir/rule
 
 # Convenience name for target.
@@ -203,14 +203,14 @@ CMakeFiles/LibINI.dir/clean:
 CMakeFiles/LibLinuxOS.dir/all:
 	$(MAKE) -f CMakeFiles/LibLinuxOS.dir/build.make CMakeFiles/LibLinuxOS.dir/depend
 	$(MAKE) -f CMakeFiles/LibLinuxOS.dir/build.make CMakeFiles/LibLinuxOS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=6,7,8,9 "Built target LibLinuxOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=6,7,8,9 "Built target LibLinuxOS"
 .PHONY : CMakeFiles/LibLinuxOS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LibLinuxOS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LibLinuxOS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 0
 .PHONY : CMakeFiles/LibLinuxOS.dir/rule
 
 # Convenience name for target.
@@ -230,14 +230,14 @@ CMakeFiles/LibLinuxOS.dir/clean:
 CMakeFiles/LibXML.dir/all:
 	$(MAKE) -f CMakeFiles/LibXML.dir/build.make CMakeFiles/LibXML.dir/depend
 	$(MAKE) -f CMakeFiles/LibXML.dir/build.make CMakeFiles/LibXML.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=32,33,34 "Built target LibXML"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=32,33,34 "Built target LibXML"
 .PHONY : CMakeFiles/LibXML.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/LibXML.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/LibXML.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 0
 .PHONY : CMakeFiles/LibXML.dir/rule
 
 # Convenience name for target.
@@ -254,19 +254,19 @@ CMakeFiles/LibXML.dir/clean:
 # Target rules for target CMakeFiles/sFoundation.dir
 
 # All Build rule for target.
-CMakeFiles/sFoundation.dir/all: CMakeFiles/LibINI.dir/all
-CMakeFiles/sFoundation.dir/all: CMakeFiles/LibLinuxOS.dir/all
 CMakeFiles/sFoundation.dir/all: CMakeFiles/LibXML.dir/all
+CMakeFiles/sFoundation.dir/all: CMakeFiles/LibLinuxOS.dir/all
+CMakeFiles/sFoundation.dir/all: CMakeFiles/LibINI.dir/all
 	$(MAKE) -f CMakeFiles/sFoundation.dir/build.make CMakeFiles/sFoundation.dir/depend
 	$(MAKE) -f CMakeFiles/sFoundation.dir/build.make CMakeFiles/sFoundation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target sFoundation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=37,38,39,40,41,42,43,44,45,46,47,48,49 "Built target sFoundation"
 .PHONY : CMakeFiles/sFoundation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sFoundation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 23
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sFoundation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/teknic_motor_controller/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pi/ClearPathMotor/CMakeFiles 0
 .PHONY : CMakeFiles/sFoundation.dir/rule
 
 # Convenience name for target.

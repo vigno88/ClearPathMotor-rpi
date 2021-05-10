@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/teknic_motor_controller
+CMAKE_SOURCE_DIR = /home/pi/ClearPathMotor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/teknic_motor_controller
+CMAKE_BINARY_DIR = /home/pi/ClearPathMotor
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LibXML.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/LibXML.dir/flags.make
 
 CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o: CMakeFiles/LibXML.dir/flags.make
 CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o: src/LibXML/src/ErrCodeStr.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o -c /home/pi/teknic_motor_controller/src/LibXML/src/ErrCodeStr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o -c /home/pi/ClearPathMotor/src/LibXML/src/ErrCodeStr.cpp
 
 CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/LibXML/src/ErrCodeStr.cpp > CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/LibXML/src/ErrCodeStr.cpp > CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.i
 
 CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/LibXML/src/ErrCodeStr.cpp -o CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/LibXML/src/ErrCodeStr.cpp -o CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.s
 
 CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o: CMakeFiles/LibXML.dir/flags.make
 CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o: src/LibXML/src/pugixml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o -c /home/pi/teknic_motor_controller/src/LibXML/src/pugixml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o -c /home/pi/ClearPathMotor/src/LibXML/src/pugixml.cpp
 
 CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/LibXML/src/pugixml.cpp > CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/LibXML/src/pugixml.cpp > CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.i
 
 CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/LibXML/src/pugixml.cpp -o CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/LibXML/src/pugixml.cpp -o CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.s
 
 # Object files for target LibXML
 LibXML_OBJECTS = \
@@ -95,7 +95,7 @@ libLibXML.a: CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o
 libLibXML.a: CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o
 libLibXML.a: CMakeFiles/LibXML.dir/build.make
 libLibXML.a: CMakeFiles/LibXML.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLibXML.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLibXML.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/LibXML.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LibXML.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/LibXML.dir/clean:
 .PHONY : CMakeFiles/LibXML.dir/clean
 
 CMakeFiles/LibXML.dir/depend:
-	cd /home/pi/teknic_motor_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller/CMakeFiles/LibXML.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/ClearPathMotor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor/CMakeFiles/LibXML.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LibXML.dir/depend
 

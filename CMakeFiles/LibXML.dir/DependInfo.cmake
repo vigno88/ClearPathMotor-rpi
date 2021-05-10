@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/teknic_motor_controller/src/LibXML/src/ErrCodeStr.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o"
-  "/home/pi/teknic_motor_controller/src/LibXML/src/pugixml.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o"
+  "/home/pi/ClearPathMotor/src/LibXML/src/ErrCodeStr.cpp" "/home/pi/ClearPathMotor/CMakeFiles/LibXML.dir/src/LibXML/src/ErrCodeStr.cpp.o"
+  "/home/pi/ClearPathMotor/src/LibXML/src/pugixml.cpp" "/home/pi/ClearPathMotor/CMakeFiles/LibXML.dir/src/LibXML/src/pugixml.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

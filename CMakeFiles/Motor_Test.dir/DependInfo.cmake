@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/teknic_motor_controller/src/motor_control/motor_test.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/Motor_Test.dir/src/motor_control/motor_test.cpp.o"
+  "/home/pi/ClearPathMotor/src/motor_control/motor_test.cpp" "/home/pi/ClearPathMotor/CMakeFiles/Motor_Test.dir/src/motor_control/motor_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -24,10 +24,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/DependInfo.cmake"
-  "/home/pi/teknic_motor_controller/CMakeFiles/LibINI.dir/DependInfo.cmake"
-  "/home/pi/teknic_motor_controller/CMakeFiles/LibLinuxOS.dir/DependInfo.cmake"
-  "/home/pi/teknic_motor_controller/CMakeFiles/LibXML.dir/DependInfo.cmake"
+  "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/DependInfo.cmake"
+  "/home/pi/ClearPathMotor/CMakeFiles/LibINI.dir/DependInfo.cmake"
+  "/home/pi/ClearPathMotor/CMakeFiles/LibLinuxOS.dir/DependInfo.cmake"
+  "/home/pi/ClearPathMotor/CMakeFiles/LibXML.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/teknic_motor_controller
+CMAKE_SOURCE_DIR = /home/pi/ClearPathMotor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/teknic_motor_controller
+CMAKE_BINARY_DIR = /home/pi/ClearPathMotor
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LibINI.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/LibINI.dir/flags.make
 
 CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o: CMakeFiles/LibINI.dir/flags.make
 CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o: src/LibINI/src/dictionary.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o -c /home/pi/teknic_motor_controller/src/LibINI/src/dictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o -c /home/pi/ClearPathMotor/src/LibINI/src/dictionary.cpp
 
 CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/LibINI/src/dictionary.cpp > CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/LibINI/src/dictionary.cpp > CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.i
 
 CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/LibINI/src/dictionary.cpp -o CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/LibINI/src/dictionary.cpp -o CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.s
 
 CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o: CMakeFiles/LibINI.dir/flags.make
 CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o: src/LibINI/src/iniparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o -c /home/pi/teknic_motor_controller/src/LibINI/src/iniparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o -c /home/pi/ClearPathMotor/src/LibINI/src/iniparser.cpp
 
 CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/LibINI/src/iniparser.cpp > CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/LibINI/src/iniparser.cpp > CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.i
 
 CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/LibINI/src/iniparser.cpp -o CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/LibINI/src/iniparser.cpp -o CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.s
 
 # Object files for target LibINI
 LibINI_OBJECTS = \
@@ -95,7 +95,7 @@ libLibINI.a: CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o
 libLibINI.a: CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o
 libLibINI.a: CMakeFiles/LibINI.dir/build.make
 libLibINI.a: CMakeFiles/LibINI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLibINI.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libLibINI.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/LibINI.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LibINI.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/LibINI.dir/clean:
 .PHONY : CMakeFiles/LibINI.dir/clean
 
 CMakeFiles/LibINI.dir/depend:
-	cd /home/pi/teknic_motor_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller/CMakeFiles/LibINI.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/ClearPathMotor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor/CMakeFiles/LibINI.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LibINI.dir/depend
 

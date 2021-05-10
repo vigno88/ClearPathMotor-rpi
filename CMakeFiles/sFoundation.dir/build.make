@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/teknic_motor_controller
+CMAKE_SOURCE_DIR = /home/pi/ClearPathMotor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/teknic_motor_controller
+CMAKE_BINARY_DIR = /home/pi/ClearPathMotor
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sFoundation.dir/depend.make
@@ -59,159 +59,159 @@ include CMakeFiles/sFoundation.dir/flags.make
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o: src/sFoundation/src/converterLib.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/converterLib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/converterLib.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/converterLib.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/converterLib.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/converterLib.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/converterLib.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o: src/sFoundation/src/cpmAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/cpmAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/cpmAPI.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/cpmAPI.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/cpmAPI.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/cpmAPI.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/cpmAPI.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o: src/sFoundation/src/cpmClassImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/cpmClassImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/cpmClassImpl.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/cpmClassImpl.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/cpmClassImpl.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/cpmClassImpl.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/cpmClassImpl.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o: src/sFoundation/src/iscAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/iscAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/iscAPI.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/iscAPI.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/iscAPI.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/iscAPI.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/iscAPI.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o: src/sFoundation/src/lnkAccessCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/lnkAccessCommon.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/lnkAccessCommon.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/lnkAccessCommon.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/lnkAccessCommon.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/lnkAccessCommon.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/lnkAccessCommon.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o: src/sFoundation/src/meridianNet.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/meridianNet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/meridianNet.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/meridianNet.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/meridianNet.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/meridianNet.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/meridianNet.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o: src/sFoundation/src/netCmdAPI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/netCmdAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/netCmdAPI.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/netCmdAPI.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/netCmdAPI.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/netCmdAPI.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/netCmdAPI.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o: src/sFoundation/src/netCoreFmt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/netCoreFmt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/netCoreFmt.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/netCoreFmt.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/netCoreFmt.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/netCoreFmt.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/netCoreFmt.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o: src/sFoundation/src/SerialEx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/SerialEx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/SerialEx.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/SerialEx.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/SerialEx.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/SerialEx.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/SerialEx.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o: src/sFoundation/src/sysClassImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src/sysClassImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src/sysClassImpl.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src/sysClassImpl.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src/sysClassImpl.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src/sysClassImpl.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src/sysClassImpl.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o: src/sFoundation/src-linux/lnkAccessLinux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src-linux/lnkAccessLinux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src-linux/lnkAccessLinux.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src-linux/lnkAccessLinux.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src-linux/lnkAccessLinux.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src-linux/lnkAccessLinux.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src-linux/lnkAccessLinux.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.s
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o: CMakeFiles/sFoundation.dir/flags.make
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o: src/sFoundation/src-linux/SerialLinux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o -c /home/pi/teknic_motor_controller/src/sFoundation/src-linux/SerialLinux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o -c /home/pi/ClearPathMotor/src/sFoundation/src-linux/SerialLinux.cpp
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/sFoundation/src-linux/SerialLinux.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/sFoundation/src-linux/SerialLinux.cpp > CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.i
 
 CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/sFoundation/src-linux/SerialLinux.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/sFoundation/src-linux/SerialLinux.cpp -o CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.s
 
 # Object files for target sFoundation
 sFoundation_OBJECTS = \
@@ -245,7 +245,7 @@ libsFoundation.a: CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccess
 libsFoundation.a: CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o
 libsFoundation.a: CMakeFiles/sFoundation.dir/build.make
 libsFoundation.a: CMakeFiles/sFoundation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libsFoundation.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libsFoundation.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/sFoundation.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sFoundation.dir/link.txt --verbose=$(VERBOSE)
 
@@ -259,6 +259,6 @@ CMakeFiles/sFoundation.dir/clean:
 .PHONY : CMakeFiles/sFoundation.dir/clean
 
 CMakeFiles/sFoundation.dir/depend:
-	cd /home/pi/teknic_motor_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/ClearPathMotor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sFoundation.dir/depend
 

@@ -6,11 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/teknic_motor_controller/src/LibMotors/src/motors.cpp
+/home/pi/ClearPathMotor/src/LibMotors/src/clearPathMotors.cpp
 clearPathMotors.h
-/home/pi/teknic_motor_controller/src/LibMotors/src/clearPathMotors.h
-motors.h
-/home/pi/teknic_motor_controller/src/LibMotors/src/motors.h
+/home/pi/ClearPathMotor/src/LibMotors/src/clearPathMotors.h
 
 include/LibMotors/inc/clearPathMotors.h
 stdio.h
@@ -23,8 +21,6 @@ stdlib.h
 -
 pubSysCls.h
 include/LibMotors/inc/pubSysCls.h
-
-include/LibMotors/inc/motors.h
 
 include/inc/inc-pub/mnErrors.h
 

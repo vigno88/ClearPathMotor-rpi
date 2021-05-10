@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pi/teknic_motor_controller
+CMAKE_SOURCE_DIR = /home/pi/ClearPathMotor
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pi/teknic_motor_controller
+CMAKE_BINARY_DIR = /home/pi/ClearPathMotor
 
 # Include any dependencies generated for this target.
 include CMakeFiles/LibLinuxOS.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/LibLinuxOS.dir/flags.make
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o: CMakeFiles/LibLinuxOS.dir/flags.make
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o: src/LibLinuxOS/src/tekEventsLinux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o -c /home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekEventsLinux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o -c /home/pi/ClearPathMotor/src/LibLinuxOS/src/tekEventsLinux.cpp
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekEventsLinux.cpp > CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/LibLinuxOS/src/tekEventsLinux.cpp > CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.i
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekEventsLinux.cpp -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/LibLinuxOS/src/tekEventsLinux.cpp -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.s
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o: CMakeFiles/LibLinuxOS.dir/flags.make
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o: src/LibLinuxOS/src/tekThreadsLinux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o -c /home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekThreadsLinux.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o -c /home/pi/ClearPathMotor/src/LibLinuxOS/src/tekThreadsLinux.cpp
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekThreadsLinux.cpp > CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/LibLinuxOS/src/tekThreadsLinux.cpp > CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.i
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekThreadsLinux.cpp -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/LibLinuxOS/src/tekThreadsLinux.cpp -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.s
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o: CMakeFiles/LibLinuxOS.dir/flags.make
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o: src/LibLinuxOS/src/version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o -c /home/pi/teknic_motor_controller/src/LibLinuxOS/src/version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o -c /home/pi/ClearPathMotor/src/LibLinuxOS/src/version.cpp
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/teknic_motor_controller/src/LibLinuxOS/src/version.cpp > CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/ClearPathMotor/src/LibLinuxOS/src/version.cpp > CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.i
 
 CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/teknic_motor_controller/src/LibLinuxOS/src/version.cpp -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/ClearPathMotor/src/LibLinuxOS/src/version.cpp -o CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.s
 
 # Object files for target LibLinuxOS
 LibLinuxOS_OBJECTS = \
@@ -110,7 +110,7 @@ libLibLinuxOS.a: CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cp
 libLibLinuxOS.a: CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o
 libLibLinuxOS.a: CMakeFiles/LibLinuxOS.dir/build.make
 libLibLinuxOS.a: CMakeFiles/LibLinuxOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/teknic_motor_controller/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libLibLinuxOS.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/ClearPathMotor/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libLibLinuxOS.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/LibLinuxOS.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LibLinuxOS.dir/link.txt --verbose=$(VERBOSE)
 
@@ -124,6 +124,6 @@ CMakeFiles/LibLinuxOS.dir/clean:
 .PHONY : CMakeFiles/LibLinuxOS.dir/clean
 
 CMakeFiles/LibLinuxOS.dir/depend:
-	cd /home/pi/teknic_motor_controller && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller /home/pi/teknic_motor_controller/CMakeFiles/LibLinuxOS.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pi/ClearPathMotor && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor /home/pi/ClearPathMotor/CMakeFiles/LibLinuxOS.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/LibLinuxOS.dir/depend
 

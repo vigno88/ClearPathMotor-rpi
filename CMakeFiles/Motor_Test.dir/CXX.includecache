@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/pi/teknic_motor_controller/src/motor_control/motor_test.cpp
+/home/pi/ClearPathMotor/src/motor_control/motor_test.cpp
 stdio.h
 -
 string
@@ -14,7 +14,7 @@ string
 iostream
 -
 pubSysCls.h
-/home/pi/teknic_motor_controller/src/motor_control/pubSysCls.h
+/home/pi/ClearPathMotor/src/motor_control/pubSysCls.h
 
 include/inc/inc-pub/mnErrors.h
 

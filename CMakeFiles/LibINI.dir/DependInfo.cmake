@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/teknic_motor_controller/src/LibINI/src/dictionary.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o"
-  "/home/pi/teknic_motor_controller/src/LibINI/src/iniparser.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o"
+  "/home/pi/ClearPathMotor/src/LibINI/src/dictionary.cpp" "/home/pi/ClearPathMotor/CMakeFiles/LibINI.dir/src/LibINI/src/dictionary.cpp.o"
+  "/home/pi/ClearPathMotor/src/LibINI/src/iniparser.cpp" "/home/pi/ClearPathMotor/CMakeFiles/LibINI.dir/src/LibINI/src/iniparser.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

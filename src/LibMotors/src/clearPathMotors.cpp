@@ -91,50 +91,32 @@ void CP_Motors::configNodes() {
 		//Set the units for Velocity to RPM
 		_nodes[iNode]->VelUnit(INode::RPM);						
 		_nodes[iNode]->Motion.PosnMeasured.AutoRefresh(true);
-		//Set Acceleration Limit (RPM/Sec)
-		_nodes[iNode]->Motion.AccLimit = ACC_NODE_1;
-		//Set Velocity Limit (RPM)
-		_nodes[iNode]->Motion.VelLimit = VEL_NODE_1;	
-		_nodes[iNode]->Motion.Adv.DecelLimit = 5000;
 	}
 }
 
 void CP_Motors::homeNodes() {
-    for (size_t iNode = 0; iNode < _nodeCount; iNode++) {
-        homeNode(iNode);
-    }
-}
-
-void CP_Motors::homeNode(int indexNode) {
-	    INode &theNode = *_nodes[indexNode];
+	for (size_t iNode = 0; iNode < _nodeCount; iNode++) {
+	    INode &theNode = *_nodes[iNode];
             if (theNode.Motion.Homing.HomingValid()) {
                 if (theNode.Motion.Homing.WasHomed()) {
                     printf("Node %d has already been homed,"
                         "current position is:\t%8.0f\n",
-                        indexNode,
+                        iNode,
                         theNode.Motion.PosnMeasured.Value());
                     printf("Rehoming Node... \n");
                 } else {
                     printf("Node [%d] has not been homed.  Homing Node now...\n",
-                        indexNode);
+                        iNode);
                 }
                 //Now we will home the Node
                 theNode.Motion.Homing.Initiate();
-                //define a timeout in case the node is unable to enable
-                double timeout = _manager.TimeStampMsec() + TIMEOUT;
-                // Basic mode - Poll until disabled
-                while (!theNode.Motion.Homing.WasHomed()) {
-                    if (_manager.TimeStampMsec() > timeout) {
-                        printf("Node did not complete homing:  \n\t"
-                            "-Ensure Homing settings have been defined through"
-                            " ClearView. \n\t -Check for alerts/Shutdowns \n\t"
-                            " -Ensure timeout is longer than the longest" 
-                            "possible homing move.\n");
-                        exit(-2);
-                    }
-                }
-                printf("Node completed homing\n");
             } 
+	}
+	for (size_t iNode = 0; iNode < _nodeCount; iNode++) {
+	    INode &theNode = *_nodes[iNode];
+            while(theNode.Motion.Homing.IsHoming()) {}
+	    printf("Homing done");
+	}
 }
 
 //CP_Motors::~CP_Motors() {
@@ -142,9 +124,16 @@ void CP_Motors::homeNode(int indexNode) {
 //}
 
 
-void CP_Motors::startMoveNode(int indexNode, int numSteps) {
-	printf("Send movement of %d steps to node %d\n", numSteps, indexNode);
-	_nodes[indexNode]->Motion.MovePosnStart(numSteps, true);			 
+void CP_Motors::startMovePosNode(int indexNode, int numSteps, int isTargetAbsolute) {
+	if(isTargetAbsolute) {
+	  _nodes[indexNode]->Motion.MovePosnStart(numSteps, true, false);
+	} else {
+	  _nodes[indexNode]->Motion.MovePosnStart(numSteps, false, false);
+	}	
+}
+
+void CP_Motors::startMoveVelNode(int indexNode, int velocity) {
+	_nodes[indexNode]->Motion.MoveVelStart(velocity);			 
 }
 
 bool CP_Motors::isMoveDoneNode(int indexNode) {
@@ -186,13 +175,4 @@ void CP_Motors::stopNodeDecel(int indexNode) {
 
 void CP_Motors::stopNodeClear(int indexNode) {
 	_nodes[indexNode]->Motion.NodeStopClear();
-}
-	
-void CP_Motors::backAndForthSequence(int indexNode, int travelLength) {
-	while(true) {
-		startMoveNode(indexNode, travelLength);
-		while(!isMoveDoneNode(indexNode)){}
-		startMoveNode(indexNode, -travelLength);
-		while(!isMoveDoneNode(indexNode)){}
-	}
 }

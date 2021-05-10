@@ -6,5 +6,5 @@ CXX_FLAGS =   -lpthread
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pi/teknic_motor_controller/include -I/home/pi/teknic_motor_controller/include/inc -I/home/pi/teknic_motor_controller/include/inc/inc-private -I/home/pi/teknic_motor_controller/include/inc/inc-private/linux -I/home/pi/teknic_motor_controller/include/inc/inc-private/sFound -I/home/pi/teknic_motor_controller/include/inc/inc-pub -I/home/pi/teknic_motor_controller/include/LibINI/inc -I/home/pi/teknic_motor_controller/include/LibLinuxOS/inc -I/home/pi/teknic_motor_controller/include/LibXML/inc -I/home/pi/teknic_motor_controller/include/LibMotors/inc 
+CXX_INCLUDES = -I/home/pi/ClearPathMotor/include -I/home/pi/ClearPathMotor/include/inc -I/home/pi/ClearPathMotor/include/inc/inc-private -I/home/pi/ClearPathMotor/include/inc/inc-private/linux -I/home/pi/ClearPathMotor/include/inc/inc-private/sFound -I/home/pi/ClearPathMotor/include/inc/inc-pub -I/home/pi/ClearPathMotor/include/LibINI/inc -I/home/pi/ClearPathMotor/include/LibLinuxOS/inc -I/home/pi/ClearPathMotor/include/LibXML/inc -I/home/pi/ClearPathMotor/include/LibMotors/inc 
 

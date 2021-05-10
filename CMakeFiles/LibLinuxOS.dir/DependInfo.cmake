@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekEventsLinux.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o"
-  "/home/pi/teknic_motor_controller/src/LibLinuxOS/src/tekThreadsLinux.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o"
-  "/home/pi/teknic_motor_controller/src/LibLinuxOS/src/version.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o"
+  "/home/pi/ClearPathMotor/src/LibLinuxOS/src/tekEventsLinux.cpp" "/home/pi/ClearPathMotor/CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekEventsLinux.cpp.o"
+  "/home/pi/ClearPathMotor/src/LibLinuxOS/src/tekThreadsLinux.cpp" "/home/pi/ClearPathMotor/CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/tekThreadsLinux.cpp.o"
+  "/home/pi/ClearPathMotor/src/LibLinuxOS/src/version.cpp" "/home/pi/ClearPathMotor/CMakeFiles/LibLinuxOS.dir/src/LibLinuxOS/src/version.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

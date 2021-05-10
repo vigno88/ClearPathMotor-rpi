@@ -307,7 +307,8 @@ MN_EXPORT cnErrCode MN_DECL infcGetHubPorts(std::vector<std::string> &comHubPort
 {
 
 	comHubPorts.clear();
-	FILE *pfd = popen( "ls /dev/ttyXRUSB*", "r" );
+	//FILE *pfd = popen( "ls /dev/ttyXRUSB*", "r" );
+	FILE *pfd = popen( "ls /dev/ttyUSB*", "r" );
 
     if ( pfd <= 0 )
     {

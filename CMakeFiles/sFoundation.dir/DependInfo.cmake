@@ -4,18 +4,18 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pi/teknic_motor_controller/src/sFoundation/src-linux/SerialLinux.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src-linux/lnkAccessLinux.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/SerialEx.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/converterLib.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/cpmAPI.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/cpmClassImpl.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/iscAPI.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/lnkAccessCommon.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/meridianNet.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/netCmdAPI.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/netCoreFmt.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o"
-  "/home/pi/teknic_motor_controller/src/sFoundation/src/sysClassImpl.cpp" "/home/pi/teknic_motor_controller/CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src-linux/SerialLinux.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/SerialLinux.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src-linux/lnkAccessLinux.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src-linux/lnkAccessLinux.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/SerialEx.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/SerialEx.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/converterLib.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/converterLib.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/cpmAPI.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmAPI.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/cpmClassImpl.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/cpmClassImpl.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/iscAPI.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/iscAPI.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/lnkAccessCommon.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/lnkAccessCommon.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/meridianNet.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/meridianNet.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/netCmdAPI.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/netCmdAPI.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/netCoreFmt.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/netCoreFmt.cpp.o"
+  "/home/pi/ClearPathMotor/src/sFoundation/src/sysClassImpl.cpp" "/home/pi/ClearPathMotor/CMakeFiles/sFoundation.dir/src/sFoundation/src/sysClassImpl.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -35,9 +35,9 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pi/teknic_motor_controller/CMakeFiles/LibINI.dir/DependInfo.cmake"
-  "/home/pi/teknic_motor_controller/CMakeFiles/LibLinuxOS.dir/DependInfo.cmake"
-  "/home/pi/teknic_motor_controller/CMakeFiles/LibXML.dir/DependInfo.cmake"
+  "/home/pi/ClearPathMotor/CMakeFiles/LibINI.dir/DependInfo.cmake"
+  "/home/pi/ClearPathMotor/CMakeFiles/LibLinuxOS.dir/DependInfo.cmake"
+  "/home/pi/ClearPathMotor/CMakeFiles/LibXML.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

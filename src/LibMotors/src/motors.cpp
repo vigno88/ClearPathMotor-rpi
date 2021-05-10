@@ -13,16 +13,20 @@ extern "C" {
 		((CP_Motors*)motors)->initialize();
 	}
 
-	void HomeNode(int indexNode) {
-		((CP_Motors*)motors)->homeNode(indexNode);
+	void HomeNodes() {
+		((CP_Motors*)motors)->homeNodes();
 	}
 
 	int NodeCount() {
 		return ((CP_Motors*)motors)->nodeCount();
 	}
 
-	void StartMoveNode(int indexNode, int numSteps) {
-		((CP_Motors*)motors)->startMoveNode(indexNode, numSteps);
+	void StartMovePosNode(int indexNode, int numSteps, int isTargetAbsolute) {
+		((CP_Motors*)motors)->startMovePosNode(indexNode, numSteps, isTargetAbsolute);
+	}
+	
+	void StartMoveVelNode(int indexNode, int velocity) {
+		((CP_Motors*)motors)->startMoveVelNode(indexNode, velocity);
 	}
 
 	int IsMoveDoneNode(int indexNode) {
@@ -50,9 +54,6 @@ extern "C" {
 		((CP_Motors*)motors)->setVelNode(indexNode, vel);
 	}
 
-	void BackAndForthSequence(int indexNode,int travelLength){
-            ((CP_Motors*)motors)->backAndForthSequence(indexNode, travelLength);
-	}
 	void StopNodeHard(int indexNode) {
 		((CP_Motors*)motors)->stopNodeHard(indexNode);
 	}
